@@ -1,0 +1,15 @@
+{
+  "name": "graph_editor",
+  "version": "1.0.0",
+  "description": "simple, small, extensible graph editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outdir=dist --allow-overwrite",
+    "dev": "esbuild index.js --bundle --outdir=dist --allow-overwrite --watch --servedir=dist --define:DEV=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.18.11"
+  }
+}
